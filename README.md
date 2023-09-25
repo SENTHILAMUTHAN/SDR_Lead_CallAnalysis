@@ -73,6 +73,10 @@ group by contact_number, creation_date, lead_stage, lead_tag, SDR
 5. Average time per connected call is 111.18 seconds(1.8 minutes)
 
 ###  Dashboard(image)  
+![Dashboard](SDR_analysis_dashboard.PNG)
+
+![SDR_analysis_dashboard](https://github.com/SENTHILAMUTHAN/SDR_Lead_CallAnalysis/assets/138884128/1c1df076-1769-4566-a6cd-69fdbf746882)
+
 
 ### Limitations
  This dataset has/had lot of blanks and had been replaced with NA .
