@@ -11,7 +11,7 @@ SDR(Sales development representative) Lead-Call Analysis case study
 -  [Dashboard(image)](#dashboardimage)
   
 ### Case study overview
-In this case study, we will follow the steps of the data analysis process: prepare, analyze, share in order to answer the key business questions for an **Telecalling CRM Company**.
+This case study  provides a snapshot of SDR performance, highlighting areas for improvement and offering recommendations to enhance overall effectiveness in lead outreach and conversion.
 
 ### Data sources
  The primary Data source used for this analysis is "SDR_analysis_Dataset" excel workbook with tables about **call logs , leads and an index table for 20 days of  3 SDR's of the  Telecalling CRM company**
@@ -80,6 +80,18 @@ group by contact_number, creation_date, lead_stage, lead_tag, SDR
 4. **Lead Stage:**    Most of the leads are in the "Discovery pending" stage. 
 
 5. **Average Time per Connected Call:**    The average time per connected call is 111.18 seconds, which is approximately 1.8 minutes. It suggests that the SDRs are spending a decent amount of time on each connected call.
+
+### Recommendations:
+
+- Lead Loss Mitigation: Ayesha, who had the highest lead losses, should focus on improving lead retention strategies, such as refining her pitch or better qualifying leads.
+
+- Performance Tracking: Continuous tracking of leads' progress through the sales stages is essential to identify bottlenecks and areas for improvement.
+
+- Quality over Quantity: While Ayesha displayed high activity, emphasizing the quality of interactions with leads should be a priority for all SDRs to enhance lead retention and conversion.
+
+- Training and Support: Providing additional training and support to SDRs can help them refine their sales skills and reduce lead losses.
+
+
 
 ###  Dashboard(image)  
 ![Dashboard](SDR_analysis_dashboard.PNG)
