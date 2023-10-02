@@ -66,11 +66,20 @@ FROM `project-1-trail-131997.Neodove.Call_logs`
 group by contact_number, creation_date, lead_stage, lead_tag, SDR
 ```
 ### Result/Findings
-1. The 3 SDR's(Ayesha ,Bhavana, Rakesh) have reached out to 769 leads in 20 days.
-2. Out of the 3 SDR's Ayesha had made bulk of the calling (724 calls i.e.,42.5% of the total calls of the 3 ) 
-3. Rakesh has least number of lead losts.
-4. Most of the leads are in lead stage of Discovery pending.
-5. Average time per connected call is 111.18 seconds(1.8 minutes)
+1. **Total Leads Reached:**   The three SDRs collectively reached out to 769 leads in 20 days.
+
+2. **Ayesha's Calls:**   Ayesha made a total of 724 calls, which accounts for 42.5% of the total calls made by all three SDRs. This indicates her high level of activity in reaching out to leads.
+
+3.  **Lead Losses:**    Each SDR had a different number of lead losses:
+    - Ayesha lost 134 leads.
+    - Bhavana lost 57 leads.
+    - Rakesh lost 38 leads.
+
+    This information shows that Ayesha had the highest number of lead losses, followed by Bhavana and Rakesh, who had the least.
+
+4. **Lead Stage:**    Most of the leads are in the "Discovery pending" stage. 
+
+5. **Average Time per Connected Call:**    The average time per connected call is 111.18 seconds, which is approximately 1.8 minutes. It suggests that the SDRs are spending a decent amount of time on each connected call.
 
 ###  Dashboard(image)  
 ![Dashboard](SDR_analysis_dashboard.PNG)
