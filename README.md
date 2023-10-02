@@ -30,6 +30,8 @@ This case study  provides a snapshot of SDR performance, highlighting areas for 
 
  EDA involves analysis  of the dataset to get the desired metrics from Lead and Call Logs and  Run a few calculations to get a better sense of the data layout and populate the results in Key Metrics Table
 
+ # Query
+
  ```
  SELECT contact_number, creation_date, lead_stage, lead_tag, SDR, count(call_attempt_serial) Total_Call_Attempted,
  sum(case when call_connected=true then 1 else 0 end) total_call_connected, 
